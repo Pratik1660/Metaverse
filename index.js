@@ -1,9 +1,17 @@
 const express = require('express');
+const cookieParser=require('cookie-parser');
 const app = express();
 const port= 8000;
 
 //setup library express-ejs-layouts for creating layout 
 const expressLayouts = require('express-ejs-layouts');
+
+//connecting to mongoDB
+const db = require('./config/mongoose');
+
+app.use(express.urlencoded());
+app.use(cookieParser());
+
 app.use(express.static('./assests'));
 app.use(expressLayouts);
 
