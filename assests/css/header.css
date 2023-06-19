@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 0 10px;
     background: #2196f3;
-    color: white;
+    color: rgb(255, 255, 255);
     box-shadow: 1px 1px 1px 1px lightgrey; }
     #layout-header nav .mini-logo p {
       margin: 5px;
@@ -16,5 +16,5 @@
       #layout-header nav .auth-links ul li {
         margin-right: 10px; }
     #layout-header nav a {
-      color: white;
+      color: rgb(255, 255, 255);
       text-decoration: none; }
