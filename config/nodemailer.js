@@ -9,8 +9,8 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'pratikshellu@gmail.com',
-        pass: 'gjuglyiecdzwmfhw'
+        user: 'metaverse.projectmanagement@gmail.com',
+        pass: 'rqstgjjvfkrcjfwj'
     }
 });
 
